@@ -1,0 +1,93 @@
+{
+  "type":"cover",
+  "id": "cover-001",
+  "editable": {
+	"options": [
+		"position"
+	]
+  },
+  "children": [
+	  {
+		"type": "h1",
+		"id": "cover001.h1-name1",
+		"classes": ["name1"],
+		"value": "maria",
+		"editable": {
+			"value" :{			
+				"mask": "text-uppercase",
+			    "$mask-options": ["text-uppercase", "text-lowercase", "text-capitalcase", "text"]
+			},
+			"options": [
+				"value",
+				"color",
+				"font-size"
+			]
+		},
+		"children": [
+		  {
+			"type": "span",
+			"id": "cover001.h1-name1.span-subtitle1",
+			"classes": ["subtitle1"],
+			"value": "CASAMENTO",
+			"editable": {
+				"value" :{	
+				  "mask": "text-uppercase",
+				  "$mask-options": ["text-uppercase", "text-lowercase", "text-capitalcase", "text"]
+				},
+				"options": [
+					"value",
+					"color",
+					"font-size"
+				]
+			},
+			"styles": []
+		  }
+		],
+		"styles": []
+	  },
+	  {
+		"type": "img",
+		"id": "cover001.img1",
+		"src": "id-001-icone.svg",
+		"styles": []
+	  },
+	  {
+		"type": "h1",
+		"id": "cover001.h1-name2",
+		"classes": ["name2"],
+		"value": "João",
+		"editable": {
+			"value" :{	
+				"mask": "text-uppercase",
+				"$mask-options": ["text-uppercase", "text-lowercase", "text-capitalcase", "text"]
+			},
+			"options": [
+				"value",
+				"color",
+				"font-size"
+			]
+		},
+		"children": [
+		  {
+			"type": "span",
+			"id": "cover001.h1-name2.span-subtitle2",
+			"classes": ["subtitle2"],
+			"value": "2020-03-05",
+			"editable": {
+				"value" :{	
+					"mask": "date-bullet",
+			    	"$mask-options": ["date-bullet", "date-slash", "date-minus"]
+				},
+				"options": [
+					"value",
+					"color",
+					"font-size"
+				]
+			},
+			"styles": []
+		  }
+		],
+		"styles": []
+	  }
+  ]
+}
