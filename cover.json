@@ -43,7 +43,7 @@
 			"styles": []
 		  }
 		],
-		"styles": []
+		"styles": ["font-size: 80px"]
 	  },
 	  {
 		"type": "img",
@@ -87,7 +87,7 @@
 			"styles": []
 		  }
 		],
-		"styles": []
+		"styles": ["font-size: 80px"]
 	  }
   ]
 }
