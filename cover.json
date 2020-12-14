@@ -40,7 +40,7 @@
 					"font-size"
 				]
 			},
-			"styles": []
+			"styles": ["font-size: 22px"]
 		  }
 		],
 		"styles": ["font-size: 80px"]
@@ -84,7 +84,7 @@
 					"font-size"
 				]
 			},
-			"styles": []
+			"styles": ["font-size: 22px"]
 		  }
 		],
 		"styles": ["font-size: 80px"]
