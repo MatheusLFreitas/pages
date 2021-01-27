@@ -12,7 +12,7 @@ function executa(){
             headers: headers
         };
 
-  fetch('https://matheuslfreitas.github.io/pages/image.jpg', init)
+  fetch('https://matheuslfreitas.github.io/pages/image.png', init)
             .then(function (resp) { resp.arrayBuffer(); })
             .then(function (buffer) {
                 var blob = new Blob([buffer], { type: "image/png" });
