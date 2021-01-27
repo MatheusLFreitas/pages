@@ -1,0 +1,37 @@
+<html>
+<script>
+
+function executa(){
+
+  var headers = new Headers();
+        headers.append('Content-Type', 'image/png');
+
+        var init = {
+            method: 'GET',
+            headers: headers
+        };
+
+  fetch('https://img.sitemercado.com.br/redes/987bcab01b929eb2c07877b224215c92.png', init)
+            .then(function (resp) { resp.arrayBuffer(); })
+            .then(function (buffer) {
+                var blob = new Blob([buffer], { type: "image/png" });
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.style.display = 'none';
+                a.href = url;
+                a.download = name;
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
+            })
+            .catch(function (e) {                
+              console.log(e);
+            });
+
+}
+</script>
+
+<body>
+  <button onclick="executa();">Click-me</button>
+</body>
+</html>
